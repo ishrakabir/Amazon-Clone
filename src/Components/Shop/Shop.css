@@ -23,3 +23,6 @@
         grid-template-columns: repeat(1,1fr);
     }
 }
+.cart-container{
+    background: rgba(255, 153, 0, 0.3);
+}
