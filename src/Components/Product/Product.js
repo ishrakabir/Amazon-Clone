@@ -24,4 +24,4 @@ const Product = ({ product, addToCart }) => {
     );
 };
 
-export default Product;
+export default Product; 

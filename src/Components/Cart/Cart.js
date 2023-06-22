@@ -1,6 +1,6 @@
 import React from 'react';
 import './Cart.css'
-const Cart = ({ cart }) => {
+const Cart = ({ cart,clearCart,children }) => {
     let total = 0, shipping = 0;
     let item = 0;
     for (const product of cart)
@@ -12,12 +12,17 @@ const Cart = ({ cart }) => {
     const tax = parseInt((total * .1).toFixed(2));
     return (
         <div className='cart'>
-            <h3>This is Cart</h3>
+            <h1>This is Cart</h1>
             <p>Selected Items : {item}</p>
             <p>Total : ${ total}</p>
-            <p>Shipping : ${ shipping}</p>
+            <p  >Shipping : ${ shipping}</p>
             <p>Tax : ${tax}</p>
-            <p>Grand Total : ${ total+shipping+tax}</p>
+            <p>Grand Total : ${total + shipping + tax}</p>
+            <div className='last-cart'>
+                <button onClick={() => clearCart()}>Clear Cart</button>
+                {children}
+            </div>
+            
         </div>
     );
 };

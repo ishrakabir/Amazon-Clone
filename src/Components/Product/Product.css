@@ -31,7 +31,7 @@
   position: absolute;
   bottom: 0px;
   width: 100%;
-  background: #ffe0b3;
+  background: #1C2B35;
   border: 1px solid #95a0a7;
   border-radius: 0px 0px 8px 8px;
   height: 40px;
@@ -39,7 +39,11 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
+  color: white;
 }
 .product button:hover{
     background-color: orange;
+}
+.product button:active{
+background-color: rgb(255, 119, 0);
 }
