@@ -220,32 +220,7 @@
         "shipping": 26,
         "quantity": 0
     },
-    {
-        "id": "fd52819a-cb78-4510-ad2f-c5bdd888ae78",
-        "category": "Men's Pants",
-        "name": "FRENCH TERRY TAPERED CUFF LOGO PANTS",
-        "seller": "Addidas",
-        "price": 189,
-        "stock": 27,
-        "ratings": 3,
-        "ratingsCount": 1974,
-        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d47f8bc94b2c401b9eafad23007fd8c4_9366/Primegreen_Essentials_Warm-Up_Open_Hem_3-Stripes_Track_Pants_Black_H48430_21_model.jpg",
-        "shipping": 20,
-        "quantity": 0
-    },
-    {
-        "id": "c667d3ff-41eb-4cf7-a433-819d959ea768",
-        "category": "Men's Pants",
-        "name": "OPEN HEM 3-STRIPES TRACK PANTS",
-        "seller": "Addidas",
-        "price": 58,
-        "stock": 41,
-        "ratings": 5,
-        "ratingsCount": 2140,
-        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d47f8bc94b2c401b9eafad23007fd8c4_9366/Primegreen_Essentials_Warm-Up_Open_Hem_3-Stripes_Track_Pants_Black_H48430_21_model.jpg",
-        "shipping": 49,
-        "quantity": 0
-    },
+    
     {
         "id": "e1dbc7fe-be17-4e0f-9e2d-6ad5dbc102fc",
         "category": "Men's Pants",
@@ -402,19 +377,7 @@
         "shipping": 5,
         "quantity": 0
     },
-    {
-        "id": "1ce97e0e-3611-4406-8788-7b413640f59e",
-        "category": "Men's Sneaker",
-        "name": "ADIDAS CAMO BOX GRAPHIC TEE",
-        "seller": "Addidas",
-        "price": 16,
-        "stock": 10,
-        "ratings": 3,
-        "ratingsCount": 4505,
-        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/809d5f06a7c74e93aef3ad08017c415a_9366/adidas_Camo_Box_Graphic_Tee_Grey_HB4828_21_model.jpg",
-        "shipping": 11,
-        "quantity": 0
-    },
+    
     {
         "id": "f088beb8-d664-4166-99f8-6995c2f08465",
         "category": "Men's Sneaker",
@@ -451,19 +414,6 @@
         "ratings": 3,
         "ratingsCount": 4727,
         "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c53945c38b614702ba6fae1d0164b2f1_9366/LNY_Trefoil_Fill_Tee_Black_HR9040_21_model.jpg",
-        "shipping": 2,
-        "quantity": 0
-    },
-    {
-        "id": "27cf3efa-7352-4889-85c4-44a4de2aa93a",
-        "category": "Men's Sneaker",
-        "name": "OWN THE RUN LONG SLEEVE TEE",
-        "seller": "Addidas",
-        "price": 23,
-        "stock": 17,
-        "ratings": 3,
-        "ratingsCount": 4003,
-        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c6a321b7bb7243d28fe9ac71011393c7_9366/Own_the_Run_Long_Sleeve_Tee_Black_GJ9977_21_model.jpg",
         "shipping": 2,
         "quantity": 0
     },

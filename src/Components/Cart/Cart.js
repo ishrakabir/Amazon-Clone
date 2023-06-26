@@ -1,6 +1,8 @@
 import React from 'react';
 import './Cart.css'
-const Cart = ({ cart,clearCart,children }) => {
+import { Link, useNavigate } from 'react-router-dom';
+const Cart = ({ cart, clearCart, children }) => {
+    const navigate = useNavigate();
     let total = 0, shipping = 0;
     let item = 0;
     for (const product of cart)
@@ -11,7 +13,7 @@ const Cart = ({ cart,clearCart,children }) => {
     }
     const tax = parseInt((total * .1).toFixed(2));
     return (
-        <div className='cart'>
+        <div className='cart '>
             <h1>This is Cart</h1>
             <p>Selected Items : {item}</p>
             <p>Total : ${ total}</p>
@@ -20,6 +22,7 @@ const Cart = ({ cart,clearCart,children }) => {
             <p>Grand Total : ${total + shipping + tax}</p>
             <div className='last-cart'>
                 <button onClick={() => clearCart()}>Clear Cart</button>
+                <button onClick={() => navigate('/shipment')}>Proceed Shipping </button>
                 {children}
             </div>
             
